@@ -1,0 +1,28 @@
+/* CSS sederhana untuk tabel */
+table#datatablesSimple {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #333;
+}
+
+#datatablesSimple thead {
+    background-color: #f0f0f0;
+    color: #000;
+    text-align: left;
+}
+
+#datatablesSimple th, 
+#datatablesSimple td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+#datatablesSimple tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+#datatablesSimple tr:hover {
+    background-color: #e9e9e9;
+}

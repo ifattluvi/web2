@@ -1,5 +1,13 @@
 {
+    "name": "web-2/project01",
+    "description": "Project01 PemWeb2",
+    "authors": [
+        {
+            "name": "Hellow, Hanung Tri Atmojo"
+        }
+    ],
     "require": {
-        "vlucas/phpdotenv": "^5.6"
+        "vlucas/phpdotenv": "^5.6",
+        "twig/twig": "^3.21"
     }
 }
